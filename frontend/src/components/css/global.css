@@ -1,0 +1,25 @@
+/* navbar style */
+.navbar{
+    border-bottom: var(--borders) 1px solid;
+}
+.navbar-link.active {
+  background-color: var(--borders);
+  color: #000;
+}
+
+/* end navbar style */
+
+
+/* join us component gradien */
+.join-us {
+  backdrop-filter: blur(356.46px);
+  background-image: radial-gradient(circle at 88% -50%, #054581 , #0545812c 20%, #ffffff00 30%);
+}
+.left-gradient{
+  background-image: radial-gradient(circle at 10% -50%, #054581 , #0545812c 20%, #ffffff00 30%);
+}
+
+
+.icon-style {
+  font-size: 20px !important;
+}
