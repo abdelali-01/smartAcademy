@@ -1,11 +1,14 @@
 "use client";
 
+import JoinNow from "@/components/JoinNow";
 import Loader from "@/components/Loader";
 import { courses } from "@/data";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useParams } from "next/navigation";
 import React, { useEffect, useState } from "react";
+
+
 
 export default function CoursePage() {
   const { courseId } = useParams();
@@ -82,6 +85,8 @@ export default function CoursePage() {
           </div>
         </>
       )}
+
+      <JoinNow/>
     </div>
   );
 }

@@ -31,10 +31,10 @@ export default function Navbar() {
 
         <div className="flex-grow-1"></div>
         <div className="navbar-cta">
-          <Link href={"#"}>
+          <Link href={"/auth?mode=signup"}>
             <button className="btn btn-default py-2 px-3 me-3">Signup</button>
           </Link>
-          <Link href={"#"}>
+          <Link href={"/auth?mode=login"}>
             <button className="btn blue-btn">Login</button>
           </Link>
         </div>

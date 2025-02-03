@@ -2,6 +2,10 @@ import { courses } from "@/data";
 import Link from "next/link";
 import React from "react";
 
+export const metadata = {
+  title : "Courses Page"
+}
+
 export default function Courses() {
   return (
     <div className="courses-page my-5">

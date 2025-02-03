@@ -34,3 +34,25 @@
     border-bottom: 2px solid var(--btns);
     background-image: linear-gradient(to top , #B2D8FC , #E6F0FF00 70%);
 }
+
+/* custom style for the inputs */
+
+form .field {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin: 10px 0;
+}
+
+form .field label {
+    font-weight: 500;
+}
+
+form .field input {
+    background-color: #FCFCFD;
+    border: 1px solid #F1F1F3;
+    padding: 15px;
+    border-radius: 8px;
+    outline: none;
+}
+

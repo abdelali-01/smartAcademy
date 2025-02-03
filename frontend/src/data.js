@@ -85,12 +85,12 @@ export const faq = [
 export const testimonials = [
     {
         _id : 0 ,
-        username : "Sarah L" ,
+        username : "Mhamed A" ,
         comment : "The web design course provided a solid foundation for me. The instructors were knowledgeable and supportive, and the interactive learning environment was engaging. I highly recommend it!" ,
     },
     {
         _id : 1 ,
-        username : "Sarah L" ,
+        username : "Anes O" ,
         comment : "The web design course provided a solid foundation for me. The instructors were knowledgeable and supportive, and the interactive learning environment was engaging. I highly recommend it!" ,
     },
     {
@@ -100,7 +100,7 @@ export const testimonials = [
     },
     {
         _id : 3 ,
-        username : "Sarah L" ,
+        username : "Kader S" ,
         comment : "The web design course provided a solid foundation for me. The instructors were knowledgeable and supportive, and the interactive learning environment was engaging. I highly recommend it!" ,
     },
     // {
@@ -504,6 +504,3 @@ export const courses = [
         ]
     },
 ];
-
-
-const nikmok  = "nikmk"

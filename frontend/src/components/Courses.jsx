@@ -70,12 +70,14 @@ export default function Courses() {
                 <p>{course.description}</p>
               </div>
 
-              <button
-                className="btn white-btn w-100"
-                style={{ background: "var(--background) !important" }}
-              >
-                Get it Now
-              </button>
+              <Link href={"/courses/" + course._id}>
+                <button
+                  className="btn white-btn w-100"
+                  style={{ background: "var(--background) !important" }}
+                >
+                  Get it Now
+                </button>
+              </Link>
             </div>
           );
         })}
