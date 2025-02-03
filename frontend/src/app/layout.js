@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <header
-          className="d-flex align-items-center m-3 rounded-2 justify-content-center gap-4 p-2 text-white"
+          className="d-flex align-items-center m-3 rounded-2 justify-content-center gap-1 p-2 text-white"
           style={{
             background: "var(--btns)",
             color: "#ffff !important",

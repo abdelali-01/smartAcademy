@@ -2,7 +2,7 @@
 export default function JoinUs() {
   return (
     <div
-      className="join-us rounded-4 p-5 my-5 text-center position-relative"
+      className="join-us rounded-4 py-5 px-2 my-5 text-center position-relative"
       style={{
         boxShadow: "0 16px 40px #B2D8FC",
       }}
@@ -27,10 +27,9 @@ export default function JoinUs() {
           Unlock your true potential and discover a world of opportunities that
           align with your skills, interests, and aspirations
         </p>
-        <div className="cta-join d-flex align-items-center gap-2 justify-content-center">
+        <div className="cta-join d-flex flex-wrap align-items-center gap-2 justify-content-center">
           <div className="input bg-white rounded-5 py-3 ps-4 d-flex align-items-center" style={{
             border : "1px solid var(--borders)" ,
-            width : "60%"
           }}>
             <img src="/icons/envelope-regular.svg" alt="" width={"20"}/>
             <input type="email" placeholder="Your mail address" style={{

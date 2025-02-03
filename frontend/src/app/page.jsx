@@ -8,6 +8,7 @@ import Video from "@/components/Video";
 import { benefits, courses, coursesCategories } from "@/data";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
       {/* i don't make components for this sections because i think we don't need to put it in another page */}
       {/* Benefits section */}
       <div className="benifits-section my-5 pt-5">
-        <div className="benifits-head d-flex align-items-end justify-content-between">
+        <div className="benifits-head d-flex align-items-end justify-content-between flex-wrap">
           <div className="left" style={{ maxWidth: "800px" }}>
             <h2>Benefits</h2>
             <p className="text-black-50">
@@ -29,7 +30,9 @@ export default function Home() {
             </p>
           </div>
           <div className="right">
-            <button className="btn white-btn">View All</button>
+            <Link href="/about-us">
+              <button className="btn white-btn">View All</button>
+            </Link>
           </div>
         </div>
         <div className="benifits-body d-flex flex-wrap gap-3 my-5">
@@ -66,7 +69,7 @@ export default function Home() {
         </div>
       </div>
 
-      <Courses/>
+      <Courses />
       <Testimonials />
       <FAQ />
       <JoinUs />

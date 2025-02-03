@@ -29,7 +29,7 @@ export default function Courses() {
           {courses.map((course) => {
             return (
               <div key={course._id} className="rounded-3 bg-white p-4 my-4">
-                <div className="courseItem-head d-flex align-items-center justify-content-between">
+                <div className="courseItem-head d-flex align-items-center justify-content-between flex-wrap mb-3">
                   <div className="left-part" style={{ maxWidth: "800px" }}>
                     <h5 className="fw-bold">{course.title}</h5>
                     <p className="text-black-50">{course.description}</p>
@@ -46,12 +46,12 @@ export default function Courses() {
                       <img
                         src={img}
                         className="flex-grow-1"
-                        style={{ height: "330px" }}
+                        style={{minWidth : "50px"}}
                       />
                     );
                   })}
                 </div>
-                <div className="d-flex my-4 align-items-center justify-content-between">
+                <div className="d-flex my-4 align-items-center justify-content-between flex-wrap gap-4">
                   <div className="d-flex align-items-center gap-3">
                     <div className="border p-2 rounded-2 text-black-50">
                       {course.duration}
@@ -67,7 +67,7 @@ export default function Courses() {
                   <h5 className="p-3 fw-bold my-0">Cirriculum</h5>
                   <div className="border-top"></div>
 
-                  <div className="p-3 d-flex justify-content-between gap-4">
+                  <div className="p-3 d-flex justify-content-between gap-4 flex-wrap">
                     {course.curriculum.map((c, i) => {
                       return (
                         <div key={i} className="">

@@ -13,9 +13,6 @@ export default function Testimonials() {
             eget habitasse in velit fringilla feugiat senectus in.
           </p>
         </div>
-        <div className="right">
-          <button className="btn white-btn">View All</button>
-        </div>
       </div>
 
       <div className="body-testimonals my-5 d-flex gap-3 flex-wrap">

@@ -26,7 +26,7 @@ export default function CoursePage() {
         <Loader />
       ) : (
         <>
-          <div className="courseHead my-5 d-flex align-items-center justify-content-between">
+          <div className="courseHead my-5 d-flex align-items-center justify-content-between flex-wrap">
             <h1 className="fw-bold">{course.title} Course</h1>
             <p className="text-black-50" style={{ maxWidth: "600px" }}>
               {course.description}
@@ -37,7 +37,7 @@ export default function CoursePage() {
             alt=""
             style={{
               width: "100%",
-              height: "90vh",
+              maxHeight : "80vh" ,
               objectFit: "cover",
               borderRadius: "10px",
             }}

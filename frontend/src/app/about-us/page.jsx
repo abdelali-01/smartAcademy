@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import JoinNow from "@/components/JoinNow";
+import JoinUs from "@/components/JoinUs";
 import React from "react";
 
 const achievements = [
@@ -60,7 +61,7 @@ export default function AboutUs() {
         items={achievements}
       />
 
-      <JoinNow />
+      <JoinUs />
     </div>
   );
 }

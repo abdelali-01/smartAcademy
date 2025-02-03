@@ -7,7 +7,7 @@ import { useState } from "react";
 
 export default function FAQ() {
   return (
-    <div className="faq rounded-2 p-5 bg-white d-flex gap-5 flex-wrap">
+    <div className="faq rounded-2 py-5 px-4 bg-white d-flex gap-5 flex-wrap">
       <div
         className="left-faq"
         style={{
@@ -33,7 +33,7 @@ function FaqItem({ question }) {
   const [isDisplay, setIsDisplay] = useState(false);
   
   return (
-    <div className="border rounded-2 py-4 px-5 mb-3">
+    <div className="border rounded-2 py-4 px-2 mb-3">
       <div className="head-item d-flex align-items-center justify-content-between">
         <h6 className="my-0">{question.question}</h6>
         <div
