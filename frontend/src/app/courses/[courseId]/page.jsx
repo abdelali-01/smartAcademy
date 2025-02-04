@@ -20,6 +20,8 @@ export default function CoursePage() {
     );
     setCourse(currentCourse);
   }, [courseId]);
+
+  
   return (
     <div className="course-page container">
       {course === null ? (

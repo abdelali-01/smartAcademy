@@ -131,7 +131,11 @@ export const coursesCategories = [
     },
     {
         _id : 2 ,
-        title : "Marketing",
+        title : "marketing",
+    },
+    {
+        _id : 3 ,
+        title : "math",
     },
 ]
     
@@ -140,10 +144,11 @@ export const courses = [
         _id : 0 ,
         title : "UI/UX Design" ,
         description : "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX). Learn design principles, wireframing, prototyping, and usability testing techniques." ,
-        images : ["/courses/ui-ux-1.png" , "/courses/ui-ux-2.png" , "/courses/ui-ux-3.png"] ,
+        images : ["/courses/ui-ux-1.png" , "/courses/ui-ux-2.png" , "/courses/ui-ux-2.png" , "/courses/ui-ux-3.png"] ,
         duration : "6 Weeks" ,
         for : "Intermediate" ,
         by : "Emily Johnson" ,
+        category : "marketing",
         curriculum : [
             {
                 title : "Introduction to UI/UX Design" ,
@@ -240,6 +245,7 @@ export const courses = [
         duration : "6 Weeks" ,
         for : "Intermediate" ,
         by : "Emily Johnson" ,
+        category : "marketing",
         curriculum : [
             {
                 title : "Introduction to UI/UX Design" ,
@@ -353,6 +359,7 @@ export const courses = [
         duration : "6 Weeks" ,
         for : "Intermediate" ,
         by : "Emily Johnson" ,
+        category : "web development",
         curriculum : [
             {
                 title : "Introduction to UI/UX Design" ,
@@ -427,11 +434,256 @@ export const courses = [
     {
         _id : 3 ,
         title : "UI/UX Design" ,
+        free : true ,
         description : "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX). Learn design principles, wireframing, prototyping, and usability testing techniques." ,
-        images : ["/courses/ui-ux-1.png" , "/courses/ui-ux-2.png" , "/courses/ui-ux-3.png"] ,
+        images : [ "/courses/ui-ux-3.png" , "/courses/ui-ux-3.png"] ,
         duration : "6 Weeks" ,
         for : "Intermediate" ,
         by : "Emily Johnson" ,
+        category : "web design",
+        curriculum : [
+            {
+                title : "Introduction to UI/UX Design" ,
+                lessons : [
+                    {
+                        title : "Understanding UI/UX Design Principles" ,
+                        duration : "45 minutes" ,
+                    },
+                    {
+                        title : "Importance of User-Centered Design" ,
+                        duration : "1 hour" ,
+                    },
+                    {
+                        title : "The Role of UI/UX Design in Product Development" ,
+                        duration : "45 minutes" ,
+                    },
+                ]
+            },
+            {
+                title : "Introduction to UI/UX Design" ,
+                lessons : [
+                    {
+                        title : "Understanding UI/UX Design Principles" ,
+                        duration : "45 minutes" ,
+                    },
+                    {
+                        title : "Importance of User-Centered Design" ,
+                        duration : "1 hour" ,
+                    },
+                    {
+                        title : "The Role of UI/UX Design in Product Development" ,
+                        duration : "45 minutes" ,
+                    },
+                ]
+            },
+            {
+                title : "Introduction to UI/UX Design" ,
+                lessons : [
+                    {
+                        title : "Understanding UI/UX Design Principles" ,
+                        duration : "45 minutes" ,
+                    },
+                    {
+                        title : "Importance of User-Centered Design" ,
+                        duration : "1 hour" ,
+                    },
+                    {
+                        title : "The Role of UI/UX Design in Product Development" ,
+                        duration : "45 minutes" ,
+                    },
+                ]
+            },
+            {
+                title : "Introduction to UI/UX Design" ,
+                lessons : [
+                    {
+                        title : "Understanding UI/UX Design Principles" ,
+                        duration : "45 minutes" ,
+                    },
+                    {
+                        title : "Importance of User-Centered Design" ,
+                        duration : "1 hour" ,
+                    },
+                    {
+                        title : "The Role of UI/UX Design in Product Development" ,
+                        duration : "45 minutes" ,
+                    },
+                ]
+            },
+        ]
+    },
+    {
+        _id : 4 ,
+        title : "UI/UX Design" ,
+        free : true ,
+        description : "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX). Learn design principles, wireframing, prototyping, and usability testing techniques." ,
+        images : [ "/courses/ui-ux-3.png" , "/courses/ui-ux-3.png"] ,
+        duration : "6 Weeks" ,
+        for : "Intermediate" ,
+        by : "Emily Johnson" ,
+        category : "web development",
+        curriculum : [
+            {
+                title : "Introduction to UI/UX Design" ,
+                lessons : [
+                    {
+                        title : "Understanding UI/UX Design Principles" ,
+                        duration : "45 minutes" ,
+                    },
+                    {
+                        title : "Importance of User-Centered Design" ,
+                        duration : "1 hour" ,
+                    },
+                    {
+                        title : "The Role of UI/UX Design in Product Development" ,
+                        duration : "45 minutes" ,
+                    },
+                ]
+            },
+            {
+                title : "Introduction to UI/UX Design" ,
+                lessons : [
+                    {
+                        title : "Understanding UI/UX Design Principles" ,
+                        duration : "45 minutes" ,
+                    },
+                    {
+                        title : "Importance of User-Centered Design" ,
+                        duration : "1 hour" ,
+                    },
+                    {
+                        title : "The Role of UI/UX Design in Product Development" ,
+                        duration : "45 minutes" ,
+                    },
+                ]
+            },
+            {
+                title : "Introduction to UI/UX Design" ,
+                lessons : [
+                    {
+                        title : "Understanding UI/UX Design Principles" ,
+                        duration : "45 minutes" ,
+                    },
+                    {
+                        title : "Importance of User-Centered Design" ,
+                        duration : "1 hour" ,
+                    },
+                    {
+                        title : "The Role of UI/UX Design in Product Development" ,
+                        duration : "45 minutes" ,
+                    },
+                ]
+            },
+            {
+                title : "Introduction to UI/UX Design" ,
+                lessons : [
+                    {
+                        title : "Understanding UI/UX Design Principles" ,
+                        duration : "45 minutes" ,
+                    },
+                    {
+                        title : "Importance of User-Centered Design" ,
+                        duration : "1 hour" ,
+                    },
+                    {
+                        title : "The Role of UI/UX Design in Product Development" ,
+                        duration : "45 minutes" ,
+                    },
+                ]
+            },
+        ]
+    },
+    {
+        _id : 5 ,
+        title : "UI/UX Design" ,
+        free : true ,
+        description : "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX). Learn design principles, wireframing, prototyping, and usability testing techniques." ,
+        images : [ "/courses/ui-ux-3.png" , "/courses/ui-ux-3.png"] ,
+        duration : "6 Weeks" ,
+        for : "Intermediate" ,
+        by : "Emily Johnson" ,
+        category : "web development",
+        curriculum : [
+            {
+                title : "Introduction to UI/UX Design" ,
+                lessons : [
+                    {
+                        title : "Understanding UI/UX Design Principles" ,
+                        duration : "45 minutes" ,
+                    },
+                    {
+                        title : "Importance of User-Centered Design" ,
+                        duration : "1 hour" ,
+                    },
+                    {
+                        title : "The Role of UI/UX Design in Product Development" ,
+                        duration : "45 minutes" ,
+                    },
+                ]
+            },
+            {
+                title : "Introduction to UI/UX Design" ,
+                lessons : [
+                    {
+                        title : "Understanding UI/UX Design Principles" ,
+                        duration : "45 minutes" ,
+                    },
+                    {
+                        title : "Importance of User-Centered Design" ,
+                        duration : "1 hour" ,
+                    },
+                    {
+                        title : "The Role of UI/UX Design in Product Development" ,
+                        duration : "45 minutes" ,
+                    },
+                ]
+            },
+            {
+                title : "Introduction to UI/UX Design" ,
+                lessons : [
+                    {
+                        title : "Understanding UI/UX Design Principles" ,
+                        duration : "45 minutes" ,
+                    },
+                    {
+                        title : "Importance of User-Centered Design" ,
+                        duration : "1 hour" ,
+                    },
+                    {
+                        title : "The Role of UI/UX Design in Product Development" ,
+                        duration : "45 minutes" ,
+                    },
+                ]
+            },
+            {
+                title : "Introduction to UI/UX Design" ,
+                lessons : [
+                    {
+                        title : "Understanding UI/UX Design Principles" ,
+                        duration : "45 minutes" ,
+                    },
+                    {
+                        title : "Importance of User-Centered Design" ,
+                        duration : "1 hour" ,
+                    },
+                    {
+                        title : "The Role of UI/UX Design in Product Development" ,
+                        duration : "45 minutes" ,
+                    },
+                ]
+            },
+        ]
+    },
+    {
+        _id : 6 ,
+        title : "UI/UX Design" ,
+        free : true ,
+        description : "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX). Learn design principles, wireframing, prototyping, and usability testing techniques." ,
+        images : [ "/courses/ui-ux-3.png" , "/courses/ui-ux-3.png"] ,
+        duration : "6 Weeks" ,
+        for : "Intermediate" ,
+        by : "Emily Johnson" ,
+        category : "web development",
         curriculum : [
             {
                 title : "Introduction to UI/UX Design" ,

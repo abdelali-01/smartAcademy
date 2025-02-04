@@ -3,8 +3,8 @@ import Link from "next/link";
 import React from "react";
 
 export const metadata = {
-  title : "Courses Page"
-}
+  title: "Courses Page",
+};
 
 export default function Courses() {
   return (
@@ -12,8 +12,7 @@ export default function Courses() {
       <div className="container">
         <div className="head-page d-flex align-items-center justify-content-between gap-3 flex-wrap">
           <h1 className="fw-bold w-50">
-            Online Courses on Design and Development        
-            
+            Online Courses on Design and Development
           </h1>
           <p className="text-black-50" style={{ maxWidth: "500px" }}>
             Welcome to our online course page, where you can enhance your skills
@@ -46,7 +45,11 @@ export default function Courses() {
                       <img
                         src={img}
                         className="flex-grow-1"
-                        style={{minWidth : "50px"}}
+                        style={{
+                          minWidth: "50px",
+                          maxHeight: "500px",
+                          objectFit: "contain",
+                        }}
                       />
                     );
                   })}
@@ -67,10 +70,10 @@ export default function Courses() {
                   <h5 className="p-3 fw-bold my-0">Cirriculum</h5>
                   <div className="border-top"></div>
 
-                  <div className="p-3 d-flex justify-content-between gap-4 flex-wrap">
+                  <div className="p-3 d-flex gap-4 flex-wrap">
                     {course.curriculum.map((c, i) => {
                       return (
-                        <div key={i} className="">
+                        <div key={i} style={{maxWidth : "200px" , flexGrow : "1"}}>
                           <div className="fs-1 fw-bold">
                             {String(i + 1).padStart(2, "0")}
                           </div>
